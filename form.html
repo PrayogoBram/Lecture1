@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My WebPage</title>
+
+    <style>
+          input[type = text]{
+            background-color: red;
+          }
+          input[type=number]{
+            background-color: yellow;
+          }
+          button {
+            width: 200px;
+            height: 50px;
+            font-size: 24px;
+            background-color: green;
+          }
+          button:hover{
+            background-color: orange;
+          }
+          a::before{
+            content: "\21d2 Click here: ";
+            font-weight: bold;
+          }
+    </style>
+  </head>
+  <body>
+    <ul>
+      <li><a href="#">one link</a></li>
+      <li><a href="#">another link</a></li>
+      <li><a href="#">third link</a></li>
+    </ul>
+
+    <form>
+      <div>
+        <input type="text" name="name" placeholder="First Name">
+        <input type="text" name="name" placeholder="Last Name">
+        <input type="number" name="name" placeholder="Age">
+      </div>
+      <button type="button" name="button">Click me</button>
+
+    </form>
+
+  </body>
+</html>
